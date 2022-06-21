@@ -11,6 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.swiper-button-prev::after{
+  color: white;
+}
+.swiper-button-next::after{
+  color: white;
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
